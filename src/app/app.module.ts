@@ -11,6 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 //selection page declaration
 import { SelectionPage } from '../pages/selection/selection';
 import { ParentsPage } from '../pages/parents/parents';
+import { YoungPage } from '../pages/young/young';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     SelectionPage,
-    ParentsPage
+    ParentsPage,
+    YoungPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     SelectionPage,
-    ParentsPage
+    ParentsPage,
+    YoungPage
   ],
   providers: [
     StatusBar,
