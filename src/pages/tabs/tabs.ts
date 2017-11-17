@@ -7,7 +7,7 @@ import { HomePage } from '../home/home';
 //if you want to use other page
 //you import it just like below
 import { SelectionPage } from '../selection/selection';
-import { ParentsPage } from '../pages/parents/parents';
+import { ParentsPage } from '../parents/parents';
 
 @Component({
   templateUrl: 'tabs.html'
