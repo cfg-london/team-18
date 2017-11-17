@@ -13,9 +13,7 @@ export class SelectionPage {
   parents: ParentsPage;
   young: YoungPage;
   constructor(public navCtrl: NavController) {
-    this.parents = ParentsPage;
     this.young = YoungPage;
-
   }
 
 }
