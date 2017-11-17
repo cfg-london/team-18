@@ -8,6 +8,10 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
+//selection page declaration
+import { SelectionPage } from '../pages/selection/selection';
+import { ParentsPage } from '../pages/parents/parents';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -17,7 +21,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    SelectionPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    SelectionPage
   ],
   providers: [
     StatusBar,
