@@ -12,6 +12,8 @@ import { OneDiseasePage } from '../pages/onedisease/onedisease';
 import { Tips } from '../pages/tips/tips';
 import { PeopleStoriesPage } from '../pages/peoplestories/peoplestories';
 import { Treatment } from '../pages/treatment/treatment';
+import { Parents } from '../pages/parents/parents';
+import { Children } from '../pages/children/children';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -27,7 +29,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OneDiseasePage,
     Tips,
     PeopleStoriesPage,
-    Treatment
+    Treatment,
+    Parents,
+    Children
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OneDiseasePage,
     Tips,
     PeopleStoriesPage,
-    Treatment
+    Treatment,
+    Parents,
+    Children
   ],
   providers: [
     StatusBar,

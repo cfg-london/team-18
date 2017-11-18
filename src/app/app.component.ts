@@ -12,6 +12,8 @@ import { OneDiseasePage } from '../pages/onedisease/onedisease';
 import { Tips } from '../pages/tips/tips';
 import { PeopleStoriesPage } from '../pages/peoplestories/peoplestories';
 import { Treatment } from '../pages/treatment/treatment';
+import { Parents } from '../pages/parents/parents';
+import { Children } from '../pages/children/children';
 
 
 @Component({

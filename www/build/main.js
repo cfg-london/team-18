@@ -40,8 +40,9 @@ webpackEmptyAsyncContext.id = 150;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__age_age__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__parents_parents__ = __webpack_require__(199);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -51,6 +52,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -64,15 +66,15 @@ var HomePage = (function () {
     };
     HomePage.prototype.openParent = function () {
         console.log("asdasd");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__parents_parents__["a" /* Parents */]);
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Please Select</h3>\n\n  <button ion-button primary (click)="openYoung()">For Young Person</button>\n\n  <button ion-button primary (click)="openParent()">For Parents</button>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
     return HomePage;
-    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -85,8 +87,9 @@ var HomePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__disease_disease__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__children_children__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -99,6 +102,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AgePage = (function () {
     function AgePage(navCtrl) {
         this.navCtrl = navCtrl;
@@ -107,9 +111,13 @@ var AgePage = (function () {
         console.log("new page");
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__disease_disease__["a" /* DiseasePage */]);
     };
+    AgePage.prototype.openDiseaseChildren = function () {
+        console.log("new children page");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__children_children__["a" /* Children */]);
+    };
     AgePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-age',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/age/age.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    Choose\n  </p>\n\n  <button ion-button  secondary >10-17 Years Old</button>\n\n  <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/age/age.html"*/
+            selector: 'page-age',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/age/age.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    Choose\n  </p>\n\n  <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>\n\n  <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>\n\n  <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/age/age.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], AgePage);
@@ -126,7 +134,7 @@ var AgePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DiseasePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__onedisease_onedisease__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -177,7 +185,7 @@ var DiseasePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OneDiseasePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -207,10 +215,9 @@ var OneDiseasePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-onedisease',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/onedisease/onedisease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n\n  <ion-card>\n  <ion-card-header>\n    Summary\n  </ion-card-header>\n  <ion-card-content>\n    add text about blood cancer short\n  </ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header>\n  Treatment\n</ion-card-header>\n<ion-card-content>\n  add text about blood cancer short\n</ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  add tips\n</ion-card-content>\n</ion-card>\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-thumbnail item-start>\n      <img src="img/test103.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/test104.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/test101.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/test102.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/onedisease/onedisease.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], OneDiseasePage);
     return OneDiseasePage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=onedisease.js.map
@@ -221,9 +228,100 @@ var OneDiseasePage = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Children; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Children = (function () {
+    function Children(navCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+    }
+    Children.prototype.presentAlert = function () {
+        var alert = this.alertCtrl.create({
+            title: 'title here',
+            subTitle: 'Add text here about this person right over here haha ',
+            buttons: ['Thanks!']
+        });
+        alert.present();
+    };
+    Children = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-children',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/children/children.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n\n<img width="80%" height="40%" src="assets/albert.png"/>\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  add tips\n</ion-card-content>\n</ion-card>\n\n\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-thumbnail item-start>\n      <img src="img/pp01.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/pp02.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/pp03.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/pp04.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n<img width="80%" height="40%" src="assets/notalbert.png"/>\n\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/children/children.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+    ], Children);
+    return Children;
+}());
+
+//# sourceMappingURL=children.js.map
+
+/***/ }),
+
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Parents; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+//import { OneDiseasePage } from '../onedisease/onedisease';
+var Parents = (function () {
+    function Parents(navCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+    }
+    Parents.prototype.presentAlert = function () {
+        var alert = this.alertCtrl.create({
+            title: 'title here',
+            subTitle: 'Add text here about this person right over here haha ',
+            buttons: ['Thanks!']
+        });
+        alert.present();
+    };
+    Parents = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-parents',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/parents/parents.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  add tips\n</ion-card-content>\n</ion-card>\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-thumbnail item-start>\n      <img src="img/pp01.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/pp02.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/pp03.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/pp04.jpg">\n    </ion-thumbnail>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/parents/parents.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+    ], Parents);
+    return Parents;
+}());
+
+//# sourceMappingURL=parents.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -274,13 +372,13 @@ var ListPage = (function () {
 
 /***/ }),
 
-/***/ 199:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(225);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -288,31 +386,35 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 223:
+/***/ 225:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_age_age__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_disease_disease__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_status_bar__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_children_children__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -341,7 +443,9 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__["a" /* OneDiseasePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__["a" /* Tips */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__["a" /* PeopleStoriesPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */]
+                __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__["a" /* Parents */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_children_children__["a" /* Children */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -359,11 +463,13 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__["a" /* OneDiseasePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__["a" /* Tips */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__["a" /* PeopleStoriesPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */]
+                __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__["a" /* Parents */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_children_children__["a" /* Children */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_12__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_13__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
             ]
         })
@@ -375,17 +481,17 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 266:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -444,13 +550,13 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 275:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tips; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -479,13 +585,13 @@ var Tips = (function () {
 
 /***/ }),
 
-/***/ 276:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PeopleStoriesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -514,13 +620,13 @@ var PeopleStoriesPage = (function () {
 
 /***/ }),
 
-/***/ 277:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Treatment; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -549,5 +655,5 @@ var Treatment = (function () {
 
 /***/ })
 
-},[199]);
+},[201]);
 //# sourceMappingURL=main.js.map

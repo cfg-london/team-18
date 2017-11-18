@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AgePage } from '../age/age';
+import { Parents } from '../parents/parents';
 
 @Component({
   selector: 'page-home',
@@ -16,12 +17,14 @@ export class HomePage {
 
     console.log("new young page")
 
-    this.navCtrl.push(AgePage);
+    this.navCtrl.push(AgePage)
 
   }
 
   openParent(){
       console.log("asdasd")
+      this.navCtrl.push(Parents)
+
   }
 
 }
