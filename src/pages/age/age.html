@@ -8,16 +8,49 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <br>
+  <br>
+  <br>
+  <h3 class="center">Select your age</h3>
 
-  <p>
-    Choose
-  </p>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-  <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col >
+        <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>
+      </ion-col>
+      <ion-col>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col>
+        <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>
+      </ion-col>
+      <ion-col>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col>
+        <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>
+      </ion-col>
+      <ion-col>
+      </ion-col>
+    </ion-row>
+<br><br><br><br><br>
+  </ion-grid>
 
-  <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>
 
-  <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>
+
 
 </ion-content>

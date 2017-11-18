@@ -26,7 +26,7 @@ export class Contribute {
   let toast = this.toastCtrl.create({
     message: 'Request registered',
     duration: 3000,
-    position: 'top'
+    position: 'bottom'
   });
 
   toast.present();
