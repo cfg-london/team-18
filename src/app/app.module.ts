@@ -8,10 +8,13 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
+//Age page declaration
+import { AgePage } from '../pages/age/age';
 //selection page declaration
 import { SelectionPage } from '../pages/selection/selection';
 import { ParentsPage } from '../pages/parents/parents';
-import { YoungPage } from '../pages/young/young';
+import { TypePage } from '../pages/type/type';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,9 +28,10 @@ import { StreamingMedia } from '@ionic-native/streaming-media';
     ContactPage,
     HomePage,
     TabsPage,
+    AgePage,
     SelectionPage,
     ParentsPage,
-    YoungPage
+    TypePage
   ],
   imports: [
     BrowserModule,
@@ -40,9 +44,10 @@ import { StreamingMedia } from '@ionic-native/streaming-media';
     ContactPage,
     HomePage,
     TabsPage,
+    AgePage,
     SelectionPage,
     ParentsPage,
-    YoungPage
+    TypePage
   ],
   providers: [
     StatusBar,

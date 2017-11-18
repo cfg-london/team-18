@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
+import { AgePage } from '../age/age';
 
 //if you want to use other page
 //you import it just like below
@@ -18,6 +19,7 @@ export class TabsPage {
   tab2Root = AboutPage;
   tab3Root = ContactPage;
   tab4Root = SelectionPage;
+  tab5Root = AgePage;
 
   constructor() {
 

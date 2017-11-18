@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ParentsPage } from '../parents/parents';
-import { YoungPage } from '../young/young';
+import { AgePage } from '../age/age';
 
 
 @Component({
@@ -11,10 +11,10 @@ import { YoungPage } from '../young/young';
 export class SelectionPage {
 
   parents: ParentsPage;
-  young: YoungPage;
+  age: AgePage;
   constructor(public navCtrl: NavController) {
-    this.parents = ParentsPage;
-    this.young = YoungPage;
+     this.age = AgePage;
+     this.parents = ParentsPage;
 
   }
 
