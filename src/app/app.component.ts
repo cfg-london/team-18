@@ -5,6 +5,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { AgePage } from '../pages/age/age';
+import { DiseasePage } from '../pages/disease/disease';
+import { OneDiseasePage } from '../pages/onedisease/onedisease';
+
+import { Tips } from '../pages/tips/tips';
+import { PeopleStoriesPage } from '../pages/peoplestories/peoplestories';
+import { Treatment } from '../pages/treatment/treatment';
+
 
 @Component({
   templateUrl: 'app.html'
