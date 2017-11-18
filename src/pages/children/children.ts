@@ -15,12 +15,12 @@ export class Children {
 
   }
 
-  
+
 
   presentAlert() {
     let alert = this.alertCtrl.create({
-      title: 'title here',
-      subTitle: 'Add text here about this person right over here haha ',
+      title: 'My Story',
+      subTitle: 'At age 4, during a routine health control doctors found something wrong in my blood. I have really nice doctors that are taking care of me. Whenever I feel bad watching cartoons and drawing really helps.',
       buttons: ['Thanks!']
     });
 
