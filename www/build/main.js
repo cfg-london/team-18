@@ -76,7 +76,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Please Select</h3>\n\n  <button ion-button primary (click)="openYoung()">For Young Person</button>\n\n  <button ion-button primary (click)="openParent()">For Parents</button>\n\n  <button ion-button primary (click)="contribute()">Make a Contribution</button>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3 class="center" >Please choose</h3>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button primary (click)="openYoung()">For Young Person</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button primary (click)="openParent()">For Parents</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button primary (click)="contribute()">Make a Contribution</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
@@ -348,14 +348,17 @@ var Contribute = (function () {
         };
     }
     Contribute.prototype.logForm = function (form) {
-        console.log("saved");
+        this.presentToast();
         console.log(form.value);
     };
-    Contribute.prototype.validateButton = function () {
+    Contribute.prototype.presentToast = function () {
         var toast = this.toastCtrl.create({
-            message: 'Request registered',
+            message: 'User was added successfully',
             duration: 3000,
             position: 'top'
+        });
+        toast.onDidDismiss(function () {
+            console.log('Dismissed toast');
         });
         toast.present();
     };
@@ -363,10 +366,9 @@ var Contribute = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-contribute',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/contribute/contribute.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n    <form #form="ngForm" novalidate>\n       <ion-item>\n         <ion-label>Name</ion-label>\n         <ion-input type="text" required  ngControl="title"></ion-input>\n       </ion-item>\n       <ion-item>\n         <ion-label>Email adress</ion-label>\n         <ion-textarea  ngControl="description"></ion-textarea>\n       </ion-item>\n       <button ion-button type="submit" block (click)="validateButton()">Submit</button>\n      </form>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/contribute/contribute.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */]])
     ], Contribute);
     return Contribute;
-    var _a;
 }());
 
 //# sourceMappingURL=contribute.js.map
