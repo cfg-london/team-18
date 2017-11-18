@@ -302,8 +302,8 @@ var Parents = (function () {
     }
     Parents.prototype.presentAlert = function () {
         var alert = this.alertCtrl.create({
-            title: 'title here',
-            subTitle: 'Add text here about this person right over here haha ',
+            title: 'Our Story',
+            subTitle: 'When we find out that Philippe had cancer we were devasted. He is the benjamin of the family so we were really sad. Thankfully the doctors helped us throughout this whole journey of faith and courage. As parents it is our duty to make our kids still feel like they normally growing up despite the disease.',
             buttons: ['Thanks!']
         });
         alert.present();
