@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AgePage } from '../age/age';
 import { Parents } from '../parents/parents';
+import { Contribute } from '../contribute/contribute';
 
 @Component({
   selector: 'page-home',
@@ -25,6 +26,12 @@ export class HomePage {
       console.log("asdasd")
       this.navCtrl.push(Parents)
 
+  }
+
+  contribute(){
+
+        console.log("contribution")
+        this.navCtrl.push(Contribute)
   }
 
 }

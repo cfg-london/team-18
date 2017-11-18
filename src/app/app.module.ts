@@ -14,6 +14,7 @@ import { PeopleStoriesPage } from '../pages/peoplestories/peoplestories';
 import { Treatment } from '../pages/treatment/treatment';
 import { Parents } from '../pages/parents/parents';
 import { Children } from '../pages/children/children';
+import { Contribute } from '../pages/contribute/contribute';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -31,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PeopleStoriesPage,
     Treatment,
     Parents,
-    Children
+    Children,
+    Contribute
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PeopleStoriesPage,
     Treatment,
     Parents,
-    Children
+    Children,
+    Contribute
   ],
   providers: [
     StatusBar,

@@ -14,6 +14,7 @@ import { PeopleStoriesPage } from '../pages/peoplestories/peoplestories';
 import { Treatment } from '../pages/treatment/treatment';
 import { Parents } from '../pages/parents/parents';
 import { Children } from '../pages/children/children';
+import { Contribute } from '../pages/contribute/contribute';
 
 
 @Component({
