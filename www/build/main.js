@@ -40,10 +40,9 @@ webpackEmptyAsyncContext.id = 150;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__age_age__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__parents_parents__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__contribute_contribute__ = __webpack_require__(200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -53,7 +52,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -70,13 +68,9 @@ var HomePage = (function () {
         console.log("asdasd");
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__parents_parents__["a" /* Parents */]);
     };
-    HomePage.prototype.contribute = function () {
-        console.log("contribution");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__contribute_contribute__["a" /* Contribute */]);
-    };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Please Select</h3>\n\n  <button ion-button primary (click)="openYoung()">For Young Person</button>\n\n  <button ion-button primary (click)="openParent()">For Parents</button>\n\n  <button ion-button primary (click)="contribute()">Make a Contribution</button>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\home\home.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Please Select</h3>\n\n\n\n  <button ion-button primary (click)="openYoung()">For Young Person</button>\n\n\n\n  <button ion-button primary (click)="openParent()">For Parents</button>\n\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
@@ -93,7 +87,7 @@ var HomePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__disease_disease__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__children_children__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -123,7 +117,7 @@ var AgePage = (function () {
     };
     AgePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-age',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/age/age.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    Choose\n  </p>\n\n  <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>\n\n  <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>\n\n  <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/age/age.html"*/
+            selector: 'page-age',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\age\age.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Ionic Menu Starter</h3>\n\n\n\n  <p>\n\n    Choose\n\n  </p>\n\n\n\n  <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>\n\n\n\n  <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>\n\n\n\n  <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>\n\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\age\age.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], AgePage);
@@ -140,7 +134,7 @@ var AgePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DiseasePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__onedisease_onedisease__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -174,7 +168,7 @@ var DiseasePage = (function () {
     };
     DiseasePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-disease',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/disease/disease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n  <ion-list>\n     <button ion-item *ngFor="let item of items" (click)="itemSelected()">\n       {{ item }}\n     </button>\n   </ion-list>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/disease/disease.html"*/
+            selector: 'page-disease',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\disease\disease.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Ionic Menu Starter</h3>\n\n  <ion-list>\n\n     <button ion-item *ngFor="let item of items" (click)="itemSelected()">\n\n       {{ item }}\n\n     </button>\n\n   </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\disease\disease.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], DiseasePage);
@@ -191,7 +185,7 @@ var DiseasePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OneDiseasePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -219,7 +213,7 @@ var OneDiseasePage = (function () {
     };
     OneDiseasePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-onedisease',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/onedisease/onedisease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n\n  <ion-card>\n  <ion-card-header>\n    Summary\n  </ion-card-header>\n  <ion-card-content>\n    add text about blood cancer short\n  </ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header>\n  Treatment\n</ion-card-header>\n<ion-card-content>\n  add text about blood cancer short\n</ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  add tips\n</ion-card-content>\n</ion-card>\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-avatar item-start>\n      <img src="img/test103.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test104.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test101.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test102.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/onedisease/onedisease.html"*/
+            selector: 'page-onedisease',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\onedisease\onedisease.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Iname name naem</h3>\n\n\n\n  <ion-card>\n\n  <ion-card-header>\n\n    Summary\n\n  </ion-card-header>\n\n  <ion-card-content>\n\n    <p>ALL is a type of cancer that happens when your bone marrow\n\n    (the spongy stuff inside your bones) isn’t working properly.</p>\n\n\n\n    <p>Leukaemia will replace your healthy blood cells\n\n    with ones that don’t work properly.</p>\n\n  </ion-card-content>\n\n</ion-card>\n\n\n\n\n\n<ion-card>\n\n<ion-card-header>\n\n  Treatment\n\n</ion-card-header>\n\n<ion-card-content>\n\n  <p>You will have chemotherapy. These medicines are to kill the cancer cells\n\n  and help your bone marrow to work normally. The treatment course lasts for\n\n  a long time - it continues even when you don’t feel ill anymore,\n\n  to ensure the leukaemia doesn\'t come back.</p>\n\n\n\n  <p>Sometimes you will also need to have a bone marrow or stem cell transplant,\n\n  but this depends on your leukaemia, so check with your doctor.</p>\n\n</ion-card-content>\n\n</ion-card>\n\n\n\n\n\n<ion-card>\n\n<ion-card-header>\n\n  Tips\n\n</ion-card-header>\n\n<ion-card-content>\n\n  <p>Chemotherapy might make you feel more tired and poorly than usual. It\'s good\n\n  idea to try to stay in the best shape possible to negate it.</p>\n\n\n\n  <p>You might lose your hair while you’re on treatment. It might sound scary, but\n\n  is absolutely normal. If this image change is too drastic for you, look into wigs.</p>\n\n\n\n  <p>Also try to keep yourself warm, rested and infection-free - let your body\n\n  concentrate on fighting the disease!</p>\n\n</ion-card-content>\n\n</ion-card>\n\n\n\n\n\n<ion-list>\n\n  <ion-item (click)="presentAlert()">\n\n    <ion-avatar item-start>\n\n      <img src="img/test103.jpg">\n\n    </ion-avatar>\n\n    <h2>Amy</h2>\n\n    <p>Leuakemia  • 2014</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/test104.jpg">\n\n    </ion-avatar>\n\n    <h2>Aidan</h2>\n\n    <p>ALL  • 2016</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/test102.jpg">\n\n    </ion-avatar>\n\n    <h2>Lucia</h2>\n\n    <p>Acute Lymphoblastic Leukaemia  • 2005</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/test101.jpg">\n\n    </ion-avatar>\n\n    <h2>Blake</h2>\n\n    <p>Leuakemia (ALL)  • 2013</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\onedisease\onedisease.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], OneDiseasePage);
@@ -236,7 +230,7 @@ var OneDiseasePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Children; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -264,7 +258,7 @@ var Children = (function () {
     };
     Children = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-children',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/children/children.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n\n<img width="80%" height="40%" src="assets/albert.png"/>\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  add tips\n</ion-card-content>\n</ion-card>\n\n\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-avatar item-start>\n      <img src="img/kk01.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/kk02.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/kk04.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n<img width="80%" height="40%" src="assets/notalbert.png"/>\n\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/children/children.html"*/
+            selector: 'page-children',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\children\children.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Iname name naem</h3>\n\n\n\n<img width="80%" height="40%" src="assets/albert.png"/>\n\n\n\n<ion-card>\n\n<ion-card-header>\n\n  Tips\n\n</ion-card-header>\n\n<ion-card-content>\n\n  add tips\n\n</ion-card-content>\n\n</ion-card>\n\n\n\n\n\n\n\n\n\n<ion-list>\n\n  <ion-item (click)="presentAlert()">\n\n    <ion-avatar item-start>\n\n      <img src="img/kk01.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/kk02.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/kk04.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n\n\n<img width="80%" height="40%" src="assets/notalbert.png"/>\n\n\n\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\children\children.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], Children);
@@ -281,7 +275,7 @@ var Children = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Parents; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -310,7 +304,7 @@ var Parents = (function () {
     };
     Parents = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-parents',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/parents/parents.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  add tips\n</ion-card-content>\n</ion-card>\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-avatar item-start>\n      <img src="img/pp01.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/pp02.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/pp03.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/pp04.jpg">\n    </ion-avatar>\n    <h2>My Neighbor Totoro</h2>\n    <p>Blood Cancer  • 1988</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/parents/parents.html"*/
+            selector: 'page-parents',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\parents\parents.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Iname name naem</h3>\n\n\n\n\n\n<ion-card>\n\n<ion-card-header>\n\n  Tips\n\n</ion-card-header>\n\n<ion-card-content>\n\n  add tips\n\n</ion-card-content>\n\n</ion-card>\n\n\n\n\n\n<ion-list>\n\n  <ion-item (click)="presentAlert()">\n\n    <ion-avatar item-start>\n\n      <img src="img/pp01.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/pp02.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/pp03.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img src="img/pp04.jpg">\n\n    </ion-avatar>\n\n    <h2>My Neighbor Totoro</h2>\n\n    <p>Blood Cancer  • 1988</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\parents\parents.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], Parents);
@@ -325,61 +319,9 @@ var Parents = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Contribute; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var Contribute = (function () {
-    function Contribute(toastCtrl) {
-        this.toastCtrl = toastCtrl;
-        this.todo = {
-            title: '',
-            description: ''
-        };
-    }
-    Contribute.prototype.logForm = function (form) {
-        console.log("saved");
-        console.log(form.value);
-    };
-    Contribute.prototype.validateButton = function () {
-        var toast = this.toastCtrl.create({
-            message: 'Request registered',
-            duration: 3000,
-            position: 'top'
-        });
-        toast.present();
-    };
-    Contribute = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contribute',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/contribute/contribute.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n    <form #form="ngForm" novalidate>\n       <ion-item>\n         <ion-label>Name</ion-label>\n         <ion-input type="text" required  ngControl="title"></ion-input>\n       </ion-item>\n       <ion-item>\n         <ion-label>Email adress</ion-label>\n         <ion-textarea  ngControl="description"></ion-textarea>\n       </ion-item>\n       <button ion-button type="submit" block (click)="validateButton()">Submit</button>\n      </form>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/contribute/contribute.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */]) === "function" && _a || Object])
-    ], Contribute);
-    return Contribute;
-    var _a;
-}());
-
-//# sourceMappingURL=contribute.js.map
-
-/***/ }),
-
-/***/ 201:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -418,7 +360,7 @@ var ListPage = (function () {
     };
     ListPage = ListPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/list/list.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/list/list.html"*/
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\list\list.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\list\list.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ListPage);
@@ -430,13 +372,13 @@ var ListPage = (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(225);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -444,26 +386,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 226:
+/***/ 225:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_age_age__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_disease_disease__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__ = __webpack_require__(279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_children_children__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__ = __webpack_require__(200);
+throw new Error("Cannot find module \"../pages/contribute/contribute\"");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -506,7 +448,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */],
                 __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__["a" /* Parents */],
                 __WEBPACK_IMPORTED_MODULE_13__pages_children_children__["a" /* Children */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__["a" /* Contribute */]
+                __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__["Contribute"]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -527,7 +469,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */],
                 __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__["a" /* Parents */],
                 __WEBPACK_IMPORTED_MODULE_13__pages_children_children__["a" /* Children */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__["a" /* Contribute */]
+                __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__["Contribute"]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__["a" /* StatusBar */],
@@ -543,17 +485,17 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 269:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -598,27 +540,28 @@ var MyApp = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/app/app.html"*/`<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\app\app.html"*/`<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 278:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tips; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -636,7 +579,7 @@ var Tips = (function () {
     }
     Tips = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tips',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/tips/tips.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n  <p>\n    add text here about tips\n  </p>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/tips/tips.html"*/
+            selector: 'page-tips',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\tips\tips.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Iname name naem</h3>\n\n  <p>\n\n    add text here about tips\n\n  </p>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\tips\tips.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], Tips);
@@ -647,13 +590,13 @@ var Tips = (function () {
 
 /***/ }),
 
-/***/ 279:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PeopleStoriesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -671,7 +614,7 @@ var PeopleStoriesPage = (function () {
     }
     PeopleStoriesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-peoplestories',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/peoplestories/peoplestories.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n  <p>\n    add text here about people stories\n\n    list list list !! !\n  </p>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/peoplestories/peoplestories.html"*/
+            selector: 'page-peoplestories',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\peoplestories\peoplestories.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Iname name naem</h3>\n\n  <p>\n\n    add text here about people stories\n\n\n\n    list list list !! !\n\n  </p>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\peoplestories\peoplestories.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], PeopleStoriesPage);
@@ -682,13 +625,13 @@ var PeopleStoriesPage = (function () {
 
 /***/ }),
 
-/***/ 280:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Treatment; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -706,7 +649,7 @@ var Treatment = (function () {
     }
     Treatment = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-treatment',template:/*ion-inline-start:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/treatment/treatment.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Iname name naem</h3>\n  <p>\n    add text here about treatment\n  </p>\n</ion-content>\n`/*ion-inline-end:"/Users/MantasSkackauskas/Documents/cfg/team-18/src/pages/treatment/treatment.html"*/
+            selector: 'page-treatment',template:/*ion-inline-start:"C:\Users\User\Documents\GitHub\team-18\src\pages\treatment\treatment.html"*/`<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Iname name naem</h3>\n\n  <p>\n\n    add text here about treatment\n\n  </p>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\User\Documents\GitHub\team-18\src\pages\treatment\treatment.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], Treatment);
@@ -717,5 +660,5 @@ var Treatment = (function () {
 
 /***/ })
 
-},[202]);
+},[201]);
 //# sourceMappingURL=main.js.map
