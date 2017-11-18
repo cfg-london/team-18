@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MyFont;
+  src: url("../assets/fonts/clic.otf");
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -5527,19 +5532,19 @@ ion-footer {
 }
 
 ion-app.ios {
-  font-family: -apple-system, "Helvetica Neue", "Roboto", sans-serif;
+  font-family: "MyFont";
   font-size: 1.4rem;
   background-color: #fff;
 }
 
 ion-app.md {
-  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-family: "MyFont";
   font-size: 1.4rem;
   background-color: #fff;
 }
 
 ion-app.wp {
-  font-family: "Segoe UI", "Noto Sans", sans-serif;
+  font-family: "MyFont";
   font-size: 1.4rem;
   background-color: #fff;
 }
@@ -25682,6 +25687,18 @@ ion-navbar.toolbar {
   text-align: center;
 }
 
+.bg-style {
+  background: #ccccff;
+}
+
 page-home .center {
   text-align: center;
+}
+
+#head {
+  color: #cc0099;
+}
+
+h2 {
+  color: #cc0099;
 }

@@ -123,7 +123,7 @@ var AgePage = (function () {
     };
     AgePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-age',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/age/age.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <br>\n  <br>\n  <br>\n  <h3 class="center">Select your age</h3>\n\n<br>\n<br>\n<br>\n<br>\n<br>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col >\n        <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n<br><br><br><br><br>\n  </ion-grid>\n\n\n\n\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/age/age.html"*/
+            selector: 'page-age',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/age/age.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <br>\n  <br>\n    <div class="center">\n  \n  <h3 class="center">Select your age</h3>\n\n<br>\n<br>\n<br>\n<br>\n<br>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col >\n        <button ion-button  secondary (click)="openDiseaseChildren()">Children</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button  secondary (click)="openDisease()">10-17 Years Old</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n      </ion-col>\n      <ion-col>\n        <button ion-button  secondary (click)="openDisease()">18-25 Years Old</button>\n      </ion-col>\n      <ion-col>\n      </ion-col>\n    </ion-row>\n<br><br><br><br><br>\n  </ion-grid>\n\n\n</div>\n\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/age/age.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], AgePage);
@@ -174,7 +174,7 @@ var DiseasePage = (function () {
     };
     DiseasePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-disease',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/disease/disease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Choose the ilness</h3>\n  <ion-list>\n     <button ion-item *ngFor="let item of items" (click)="itemSelected()">\n       {{ item }}\n     </button>\n   </ion-list>\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/disease/disease.html"*/
+            selector: 'page-disease',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/disease/disease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3 class="center" id="head">Whats your Diagnosis?</h3>\n  <ion-list>\n     <button ion-item *ngFor="let item of items" (click)="itemSelected()">\n       {{ item }}\n     </button>\n   </ion-list>\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/disease/disease.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], DiseasePage);
@@ -219,7 +219,7 @@ var OneDiseasePage = (function () {
     };
     OneDiseasePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-onedisease',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/onedisease/onedisease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Information</h3>\n\n  <ion-card>\n  <ion-card-header>\n    Summary\n  </ion-card-header>\n  <ion-card-content>\n    <p>ALL is a type of cancer that happens when your bone marrow\n    (the spongy stuff inside your bones) isn’t working properly.</p>\n\n    <p>Leukaemia will replace your healthy blood cells\n    with ones that don’t work properly.</p>\n  </ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header>\n  Treatment\n</ion-card-header>\n<ion-card-content>\n  <div class="center">\n  <img width="80%" height="40%" src="assets/lkk.png"/>\n  </div>\n  <p>You will have chemotherapy. These medicines are to kill the cancer cells\n  and help your bone marrow to work normally. The treatment course lasts for\n  a long time - it continues even when you don’t feel ill anymore,\n  to ensure the leukaemia doesn\'t come back.</p>\n\n  <p>Sometimes you will also need to have a bone marrow or stem cell transplant,\n  but this depends on your leukaemia, so check with your doctor.</p>\n</ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header>\n  Tips\n</ion-card-header>\n<ion-card-content>\n  <p>Chemotherapy might make you feel more tired and poorly than usual. It\'s good\n  idea to try to stay in the best shape possible to negate it.</p>\n  <p>Also try to keep yourself warm, rested and infection-free - let your body\n  concentrate on fighting the disease!</p>\n</ion-card-content>\n</ion-card>\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-avatar item-start>\n      <img src="img/test103.jpg">\n    </ion-avatar>\n    <h2>Amy</h2>\n    <p>Leuakemia  • 2014</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test104.jpg">\n    </ion-avatar>\n    <h2>Aidan</h2>\n    <p>ALL  • 2016</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test102.jpg">\n    </ion-avatar>\n    <h2>Lucia</h2>\n    <p>Acute Lymphoblastic Leukaemia  • 2005</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test101.jpg">\n    </ion-avatar>\n    <h2>Blake</h2>\n    <p>Leuakemia (ALL)  • 2013</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/onedisease/onedisease.html"*/
+            selector: 'page-onedisease',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/onedisease/onedisease.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3 class="center">Information</h3>\n\n  <ion-card>\n  <ion-card-header class="center" id="head">\n    Summary\n  </ion-card-header>\n  <ion-card-content>\n    <p>ALL is a type of cancer that happens when your bone marrow\n    (the spongy stuff inside your bones) isn’t working properly.</p>\n\n    <p>Leukaemia will replace your healthy blood cells\n    with ones that don’t work properly.</p>\n  </ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header class="center" id="head">\n  Treatment\n</ion-card-header>\n<ion-card-content>\n  <div class="center">\n  <img width="80%" height="40%" src="assets/lkk.png"/>\n  </div>\n  <p>You will have chemotherapy. These medicines are to kill the cancer cells\n  and help your bone marrow to work normally. The treatment course lasts for\n  a long time - it continues even when you don’t feel ill anymore,\n  to ensure the leukaemia doesn\'t come back.</p>\n\n  <p>Sometimes you will also need to have a bone marrow or stem cell transplant,\n  but this depends on your leukaemia, so check with your doctor.</p>\n</ion-card-content>\n</ion-card>\n\n\n<ion-card>\n<ion-card-header class="center" id="head">\n  Tips\n</ion-card-header>\n<ion-card-content>\n  <p>Chemotherapy might make you feel more tired and poorly than usual. It\'s good\n  idea to try to stay in the best shape possible to negate it.</p>\n  <p>Also try to keep yourself warm, rested and infection-free - let your body\n  concentrate on fighting the disease!</p>\n</ion-card-content>\n</ion-card>\n<br>\n<br>\n\n\n\n<ion-list>\n  <ion-item (click)="presentAlert()">\n    <ion-avatar item-start>\n      <img src="img/test103.jpg">\n    </ion-avatar>\n    <h2>Amy</h2>\n    <p>Leuakemia  • 2014</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test104.jpg">\n    </ion-avatar>\n    <h2>Aidan</h2>\n    <p>ALL  • 2016</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test102.jpg">\n    </ion-avatar>\n    <h2>Lucia</h2>\n    <p>Acute Lymphoblastic Leukaemia  • 2005</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="img/test101.jpg">\n    </ion-avatar>\n    <h2>Blake</h2>\n    <p>Leuakemia (ALL)  • 2013</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/onedisease/onedisease.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], OneDiseasePage);
@@ -363,69 +363,12 @@ var Contribute = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-contribute',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/contribute/contribute.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n    <form #form="ngForm" novalidate>\n       <ion-item>\n         <ion-label>Name</ion-label>\n         <ion-input type="text" required  ngControl="title"></ion-input>\n       </ion-item>\n       <ion-item>\n         <ion-label>Email adress</ion-label>\n         <ion-textarea  ngControl="description"></ion-textarea>\n       </ion-item>\n       <button ion-button type="submit" block (click)="validateButton()">Submit</button>\n      </form>\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/contribute/contribute.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ToastController */]])
     ], Contribute);
     return Contribute;
 }());
 
 //# sourceMappingURL=contribute.js.map
-
-/***/ }),
-
-/***/ 201:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ListPage = (function () {
-    function ListPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        // If we navigated to this page, we will have an item available as a nav param
-        this.selectedItem = navParams.get('item');
-        // Let's populate this page with some filler content for funzies
-        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-            'american-football', 'boat', 'bluetooth', 'build'];
-        this.items = [];
-        for (var i = 1; i < 11; i++) {
-            this.items.push({
-                title: 'Item ' + i,
-                note: 'This is item #' + i,
-                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-            });
-        }
-    }
-    ListPage_1 = ListPage;
-    ListPage.prototype.itemTapped = function (event, item) {
-        // That's right, we're pushing to ourselves!
-        this.navCtrl.push(ListPage_1, {
-            item: item
-        });
-    };
-    ListPage = ListPage_1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"/Users/Lydia/team-18/src/pages/list/list.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/Lydia/team-18/src/pages/list/list.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ListPage);
-    return ListPage;
-    var ListPage_1;
-}());
-
-//# sourceMappingURL=list.js.map
 
 /***/ }),
 
@@ -453,25 +396,23 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(269);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_age_age__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_disease_disease__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__ = __webpack_require__(280);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_children_children__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_age_age__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_disease_disease__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_onedisease_onedisease__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tips_tips__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_peoplestories_peoplestories__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_treatment_treatment__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_parents_parents__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_children_children__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_contribute_contribute__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -496,16 +437,15 @@ var AppModule = (function () {
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_age_age__["a" /* AgePage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_disease_disease__["a" /* DiseasePage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__["a" /* OneDiseasePage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__["a" /* Tips */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__["a" /* PeopleStoriesPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__["a" /* Parents */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_children_children__["a" /* Children */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__["a" /* Contribute */]
+                __WEBPACK_IMPORTED_MODULE_5__pages_age_age__["a" /* AgePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_disease_disease__["a" /* DiseasePage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_onedisease_onedisease__["a" /* OneDiseasePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_tips_tips__["a" /* Tips */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_peoplestories_peoplestories__["a" /* PeopleStoriesPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_treatment_treatment__["a" /* Treatment */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_parents_parents__["a" /* Parents */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_children_children__["a" /* Children */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_contribute_contribute__["a" /* Contribute */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -517,20 +457,19 @@ var AppModule = (function () {
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_age_age__["a" /* AgePage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_disease_disease__["a" /* DiseasePage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_onedisease_onedisease__["a" /* OneDiseasePage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_tips_tips__["a" /* Tips */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_peoplestories_peoplestories__["a" /* PeopleStoriesPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_treatment_treatment__["a" /* Treatment */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_parents_parents__["a" /* Parents */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_children_children__["a" /* Children */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_contribute_contribute__["a" /* Contribute */]
+                __WEBPACK_IMPORTED_MODULE_5__pages_age_age__["a" /* AgePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_disease_disease__["a" /* DiseasePage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_onedisease_onedisease__["a" /* OneDiseasePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_tips_tips__["a" /* Tips */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_peoplestories_peoplestories__["a" /* PeopleStoriesPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_treatment_treatment__["a" /* Treatment */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_parents_parents__["a" /* Parents */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_children_children__["a" /* Children */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_contribute_contribute__["a" /* Contribute */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
             ]
         })
@@ -552,7 +491,6 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(201);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -562,7 +500,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -578,7 +515,6 @@ var MyApp = (function () {
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
-            { title: 'List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -597,14 +533,15 @@ var MyApp = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/Lydia/team-18/src/app/app.html"*/`<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>`/*ion-inline-end:"/Users/Lydia/team-18/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
